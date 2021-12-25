@@ -1,13 +1,12 @@
-import React from 'react'
-import Header from '../components/Header/Header'
+import React from "react";
+
 
 function Checkout() {
-    return (
-        <>
-            <Header/>
-            <h1>I am Checkout page</h1>   
-        </>
-    )
+	return (
+		<>
+			<h1>I am Checkout page</h1>
+		</>
+	);
 }
 
-export default Checkout
+export default Checkout;

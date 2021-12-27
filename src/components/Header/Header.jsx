@@ -6,7 +6,8 @@ import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
 import { useStateValue } from "../../ContextAPI/StateProvider";
 
 function Header() {
-	const [{basket}] = useStateValue()
+	const [{ basket }] = useStateValue()
+	console.log(basket);
 	return (
 		<nav className="header">
 			<Link to="/">

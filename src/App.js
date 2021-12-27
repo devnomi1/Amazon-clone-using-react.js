@@ -2,8 +2,8 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Home from "./pages/Home/Home";
-import Checkout from "./pages/Checkout";
-import Login from "./pages/Login";
+import Checkout from "./pages/Checkout/Checkout";
+import Login from "./pages/Login/Login";
 
 function App() {
 	return (

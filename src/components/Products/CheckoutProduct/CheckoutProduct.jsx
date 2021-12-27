@@ -13,6 +13,7 @@ function CheckoutProduct({ item }) {
     }
 	return (
 		<div className="checkoutProduct">
+			
 			<img className="checkoutProduct-img" src={item.image} alt="" />
 			<div className="checkoutProduct-info">
 				<p className="checkoutProduct-title">{item.title}</p>

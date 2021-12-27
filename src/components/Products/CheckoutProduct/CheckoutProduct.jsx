@@ -7,9 +7,9 @@ function CheckoutProduct({ item }) {
     console.log(item);
     const removeFromBasket = () => {
         dispatch({
-            type: "REMOVE_FROM_BASKET",
-            id:item.id
-        })
+					type: "REMOVE_FROM_BASKET",
+					id: item.id,
+				});
     }
 	return (
 		<div className="checkoutProduct">
